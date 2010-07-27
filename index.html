@@ -1,0 +1,35 @@
+<html>
+<head>
+	<title>teste</title>
+</head>
+<script src="js/jquery-1.4.2.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/jquery.customImput.js" type="text/javascript" charset="utf-8"></script>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+	 	$("input").customInput();
+	});
+</script>
+<body>
+
+	<form>
+		<input id="informatica" type="checkbox" name="sexo" value="M"/>
+		<label for="informatica">Informática</label>
+
+		<input id="adm" type="checkbox" name="sexo" value="F"/>
+		<label for="adm">ADM</label>
+		
+		<input id="sociologia" type="checkbox" name="sexo" value="F"/>
+		<label for="sociologia">Sociologia</label>
+		
+		<br />
+		<br />
+		
+		<input id="sexoM" type="radio" name="sexo" value="M"/>
+		<label for="sexoM">Masculino</label>
+
+		<input id="sexoF" type="radio" name="sexo" value="F"/>
+		<label for="sexoF">Feminino</label>
+	</form>
+</body>
+</html>
