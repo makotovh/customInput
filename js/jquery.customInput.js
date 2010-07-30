@@ -1,7 +1,7 @@
 (function($){
 	
 	$.fn.customInput = function (settings) {
-		options = $.extend({}, $.fn.defaults, settings);
+		options = $.extend({}, $.fn.customInput.defaults, settings);
 		
 		$.each($(this), function (i, item) {
 			item = $(item);
@@ -95,7 +95,7 @@
 		
 	};
 	
-	$.fn.defaults = {
+	$.fn.customInput.defaults = {
 		imageCheckboxOn: 'images/checkbox_on.png',
 		imageCheckboxOff: 'images/checkbox_off.png',
 		imageRadioOn: 'images/checkbox_on.png',
